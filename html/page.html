@@ -1,17 +1,42 @@
 <!doctype html>
 <html lang="en">
 <head>
+<style>
+      body, html {
+        height: 100%;
+        margin: 0;
+      }
+      
+      .bg {
+        /* The image used */
+        background-image: url("toy1.jpg");
+      
+        /* Full height */
+        height: 100%; 
+      
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+</style>
+
 <meta charset="utf-8">
 <title>page.html</title>
 </head>
 <body>
-<h1>page.html</h1>
-<p>Redirection in 2s...</p>
+   <div class="bg"></div>
+
+   
+
 <script>
 setTimeout(function () {
    window.location.href = "./index.html";
-}, 2000);
+}, 5000);
 </script>
 </body>
 </html>
 
+
+ 
+ 
